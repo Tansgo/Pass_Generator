@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, monospace;
+    background: linear-gradient(to right top, #141e30, #243b55);
+}
+
+h2{
+    display: grid;
+    justify-content: center;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+}
+
+.box{
+    display: grid;
+    justify-content: center;
+    margin-top: 300px;
+    width: 450px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.7);
+}
+
+input{
+    width: 380px;
+    height: 40px;
+    margin: 20px 0;
+    border: 1px solid #adaba8;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+input::selection{
+    border-color: #243b55;
+}
+
+.box > button{
+    width: 386px;
+    height: 44px;
+    margin: 20px auto;
+    background: #4d5966;
+    opacity: 0.9;
+    border-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1428571429em;
+    font-weight: bold;
+}
+
+.box > button:hover{
+    opacity: 1;
+}

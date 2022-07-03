@@ -10,6 +10,13 @@
         <div class="box">
             <h2>Password Generator</h2>
             <input id="password_text" type="text" placeholder="Ici va apparaître votre mot de passe">
+            <div>
+                <div class="password_length_box">
+                    <label for="length_range">Longueur du mot de passe</label>
+                    <input id="length_range" type="range" name="length_range" min="12" max="40" value="26">
+                    <input id="length_number" name="length_number" type="number" min="12" max="40" value="26">
+                </div>
+            </div>
             <button id="generator_button">Générer</button>
         </div>
     </div>

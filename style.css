@@ -28,17 +28,36 @@ h2{
     box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.7);
 }
 
-input{
+.password_length_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 380px;
+}
+
+#length_range {
+    width: calc(100% - 60px);
+    padding: 20px 0;
+}
+
+#length_number {
+    width: 45px;
+}
+
+#password_text {
     width: 380px;
     height: 40px;
     margin: 20px 0;
-    border: 1px solid #adaba8;
+    border: 2px solid #adaba8;
     border-radius: 5px;
     font-size: 0.9em;
 }
 
-input::selection{
-    border-color: #243b55;
+#password_text:focus {
+    outline: none;
+    border: 2px solid #243b55;
 }
 
 .box > button{

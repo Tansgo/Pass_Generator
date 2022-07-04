@@ -6,4 +6,4 @@ J'ai fait le choix d'une longueur minimum à 12 car, au jour de la rédaction de
 
 Ce projet est intéressant car il pourra être mené à évoluer, en laissant le choix des caractères à l'utilisateur, en ajoutant un bouton icône "Copier", etc.
 
-:warning: Non reponsive :warning:
+:warning: Non responsive :warning:
